@@ -1,4 +1,3 @@
-from ctypes.wintypes import PINT
 import atm_card
 
 class Customer:
@@ -21,5 +20,4 @@ class Customer:
         self.balance-=nominal
 
     def deposit(self, nominal):
-        self.balance+=nominal
-    
+        self.balance+=nominal  
