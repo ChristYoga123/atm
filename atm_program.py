@@ -1,4 +1,4 @@
-import random as rn
+import random as rand
 import datetime as dt
 from customer import Customer
 import os
@@ -42,7 +42,7 @@ while True:
                     else:
                         print("Pin anda salah")
             elif user_success == "5":
-                print("No. Rekord: ", rn.randint(100000, 10000000))
+                print("No. Rekord: ", rand.randint(100000, 10000000))
                 print("Tanggal: ", dt.datetime.now())
                 print("Saldo akhir: ", program.getBalance())
                 input("Terima kasih telah menggunakan program ini. Enter untuk keluar")
